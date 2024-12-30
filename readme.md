@@ -1,6 +1,5 @@
-# URL Shortener
-
-![Go Logo](https://golang.org/lib/godoc/images/go-logo-blue.svg)  
+![GO toon's image](./images/goImage.png)
+# EncodedURL
 
 A lightweight and efficient URL Shortener built in **Go**. This application allows users to create short URLs and redirect them to their original destinations.
 
@@ -58,6 +57,9 @@ A lightweight and efficient URL Shortener built in **Go**. This application allo
   ```plaintext
   Hello World
   ```
+  ![root screenshot](./images/root.png)
+
+  
 
 ### 2. Shorten URL
 
@@ -80,7 +82,7 @@ A lightweight and efficient URL Shortener built in **Go**. This application allo
   ```bash
   curl -X POST -H "Content-Type: application/json" -d '{"url": "https://example.com"}' http://localhost:3000/shorten
   ```
-  ![Postman Example Request Screenshot Placeholder](#)
+![shorten screenshot](./images/shorten.png)
 
 ### 3. Redirect to Original URL
 
@@ -91,7 +93,7 @@ A lightweight and efficient URL Shortener built in **Go**. This application allo
   ```bash
   curl http://localhost:3000/redirect/1a2b3c
   ```
-  ![Postman Example Redirect Screenshot Placeholder](#)
+![redirected screenshot](./images/redirected.png)
 
 ---
 
@@ -102,29 +104,3 @@ A lightweight and efficient URL Shortener built in **Go**. This application allo
 3. Use `/redirect/{short_url_id}` to access the original URL.
 
 ---
-
-## Future Enhancements
-
-- ✅ Add persistent database storage (e.g., SQLite, MongoDB).
-- ✅ Implement hash collision handling.
-- ✅ Enhance URL validation and error handling.
-- ✅ Build a frontend for easier usage.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Author
-
-- **Your Name**  
-  GitHub: [your-username](https://github.com/your-username)  
-  LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)  
-
----
-
-![Made with Go](https://img.shields.io/badge/Made%20with-Go-00ADD8?logo=go&logoColor=white)  ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-
