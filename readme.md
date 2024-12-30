@@ -1,4 +1,3 @@
-![GO toon's image](./images/goImage.png)
 # EncodedURL
 
 A lightweight and efficient URL Shortener built in **Go**. This application allows users to create short URLs and redirect them to their original destinations.
